@@ -2,9 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 #include "main.h"
-
+#include "BiTree.h"
 int main()
 {
-	BinToDec();
+    BiTree S = NULL;
+	CreatBiTree(&S);
+	PreOrderTravels(S);
+	//BinToDec();
+ 	getchar();
 	return 0;
 }
