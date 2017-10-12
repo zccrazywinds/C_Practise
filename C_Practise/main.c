@@ -2,13 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 #include "main.h"
-#include "BiTree.h"
 int main()
 {
-    BiTree S = NULL;
-	CreatBiTree(&S);
-	PreOrderTravels(S);
-	//BinToDec();
- 	getchar();
+	VNode G[5];
+	CreatGraph(5, G);
+	DFS(G, 0);
+	getche();
 	return 0;
 }

@@ -140,11 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BiTree.c" />
+    <ClCompile Include="Graph.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Stack.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BiTree.h" />
+    <ClInclude Include="Graph.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>
