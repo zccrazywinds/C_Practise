@@ -8,7 +8,7 @@ int main()
 	printf("原始数组如下:\n");
 	for (int i = 0; i < 10; i++)
 		printf("%d  ", num[i]);
-	SelectSort(num, 10);
+	BubbleSort(num, 10);
 	printf("\n排序结果如下:\n");
 	for (int i = 0; i < 10; i++)
 		printf("%d  ", num[i]);

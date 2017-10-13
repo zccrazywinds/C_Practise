@@ -5,3 +5,4 @@
 int InsertSort(int num[], int n);
 
 void SelectSort(int num[], int n);
+void BubbleSort(int num[], int n);

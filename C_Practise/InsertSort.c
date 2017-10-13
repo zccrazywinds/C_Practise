@@ -32,3 +32,20 @@ void SelectSort(int num[], int n)
 		}
 	}
 }
+
+void BubbleSort(int num[], int n)
+{
+	int temp;
+	for (int i = n; i >0; i--)
+	{
+		for (int j =0; j <=i;  j++)
+		{
+			if (num[j] > num[j + 1])
+			{
+				temp = num[j];
+				num[j] = num[j + 1];
+				num[j + 1] = temp;
+			}
+		}
+	}
+}
