@@ -1,17 +1,27 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
 #include "main.h"
+void print(char Array[], int  n);
 int main()
 {
-	int num[10] = { 2, 5,6,3,7,8,0,9,12,1 };
-	printf("Ô­Ê¼Êı×éÈçÏÂ:\n");
-	for (int i = 0; i < 10; i++)
-		printf("%d  ", num[i]);
-	BubbleSort(num, 10);
-	printf("\nÅÅĞò½á¹ûÈçÏÂ:\n");
-	for (int i = 0; i < 10; i++)
-		printf("%d  ", num[i]);
-	getche();
+	int a = 4, b = 10;
+	int i = 0;
+	
+	for (i = a; i > 0; i--)
+	{
+		if ((b%i == 0) && (a%i == 0))
+			break;
+	}
+	printf("æœ€å¤§å…¬çº¦æ•°ä¸º%d \n", i);
+	for (i = b; ; i++)
+	{
+		if ((i%a == 0) && (i%b == 0))
+			break;
+	}
+	printf("æœ€å°å…¬å€æ•°ä¸º%d \n", i);
+	getch();
 	return 0;
 }
+
